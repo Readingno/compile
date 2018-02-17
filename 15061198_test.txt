@@ -1,0 +1,43 @@
+const int x=1,y=0,z=-10;
+const char ch1='+',ch2='*',ch3='a',ch4='1';
+int j,l[10];
+char m,n[10];
+int fact(int p){
+	int result;
+	if(p==1) 
+		return (1);
+	return (fact(p-1)*p);
+}
+int add(int a,int b){
+	int c,d[2];
+	c=a+b*1; 
+	d[1]=c;
+	return (d[1]);
+}
+char upper(char c){
+	if (c=='a' ) c='C';
+	return (c);
+}
+void print(){
+	switch (y){ 
+		case 0:printf("%d",x);
+		case 1:printf("666"); 
+		case 2:printf(fact(3));
+	}
+}
+void main(){
+	int i;
+	char ch;
+	scanf(i);
+	do i=i+1 while i<10;
+	i=5+add(1,add(1,1));
+	ch=upper('a');
+	print();
+	if (2==1) print();
+	if (2!=1) print();
+	if (2>=1) print();
+	if (2>1) print();
+	if (2<=1) print();
+	if (2<1) print();
+	return;
+}

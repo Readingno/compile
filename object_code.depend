@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1518069489 source:f:\study\大三上\编译原理\object_code\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
